@@ -22,7 +22,7 @@ namespace TagLibUWP
 
 	void Tag::UpdateTag(TagLib::Tag& tag)
 	{
-		tag.properties().clear();
+		//tag.properties().clear();
 
 		tag.setAlbum(PlatformToTagLibString(Album));
 		tag.setArtist(PlatformToTagLibString(Artist));
